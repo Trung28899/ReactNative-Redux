@@ -1,5 +1,8 @@
 ## I. Core Knowledge:
 
+- Debugging Redux in React Native:
+  See post in video 160
+
 ## II. Module Notes:
 
 1.  3rd Commit: Setting Up Redux
@@ -21,6 +24,23 @@
 
             +, Alternative way:  Send params from another screen before
             directed to this screen
+
+3.  5th Commit: Dispatching Actions to Store
+
+        - useDispatch(), same as React.js
+
+        - Check Store:
+            +, store/actions/mealsAction.js
+            +, store/reducers/meals.js
+
+        - Check Dispatch Action:
+            +, MealDetailScreen
+            +, See useDispatch()
+
+        => Adding and removing favorite items in store
+        Stopped at video 155, skipped video 156 - 162
+
+        NOTE: Font loading and icon loading error that havent fixed
 
 ## III. Packages:
 
